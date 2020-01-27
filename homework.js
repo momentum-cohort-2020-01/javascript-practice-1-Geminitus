@@ -118,7 +118,7 @@ function gcd(a, b) {
     while (a % 2 === 0 && b % 2 === 0) {
         a = a / 2
         b = b / 2
-        d = d + 1
+        d++
     }
     while (a != b) {
         if (a % 2 == 0) {
